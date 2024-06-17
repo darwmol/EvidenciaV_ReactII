@@ -7,11 +7,11 @@
   color: #1c3042;
   border: 1px;
 }
-.logo{
+.logo2{
 
     max-width: 10px;
 }
-.card {
+.card2 {
   border: 1px solid #005f73;
   border-radius: 35px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
@@ -32,27 +32,28 @@
     color: #043c6e;
     font-family: "Cabin", sans-serif;
     font-size: 30px;
+    line-height: 30px;
 }
 .subtitle {
 
     color: #043c6e;
     font-family: "Cabin", sans-serif;
 }
-.card .content {
+.card2 .content {
   flex-grow: 1;
   flex-shrink: 1;
 }
 
-.card .footer {
+.card2 .footer {
   background-color: #fff;
   padding: 10px;
 }
-.card .image {
+.card2 .image {
   border: 10px;
   border-radius: 50%;
   max-width: 90%;
 }
-.card .button {
+.atrasbutton {
   cursor: pointer;
   border: 0px;
   font-family: "Cabin", sans-serif;
@@ -66,7 +67,8 @@
   text-decoration: none;
 }
 
-.button:hover {
+
+.atrasbutton:hover {
   background-color: #44281d;
 }
 

@@ -4,7 +4,7 @@
   font-family: "Creepster", system-ui;
   text-align: center;
   font-size: 50px;
-  color: #00b0c8;
+  color: bisque;
   border: 1px;
 }
 
@@ -20,12 +20,17 @@
   cursor: default;
   transition: all 400ms ease;
   border-color: bisque;
-
+  background-color: #fff;
   display: inline-block;
 }
 .card .content {
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+.card:hover {
+  transform: translateY(-3%);
+  transform: scale(1.1);
 }
 
 .card .footer {

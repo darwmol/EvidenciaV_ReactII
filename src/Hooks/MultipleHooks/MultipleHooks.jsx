@@ -2,6 +2,7 @@ import React from "react";
 import useFetch from "./useFetch";
 import { useParams } from "react-router-dom";
 import "./Personaje.css";
+import { Link } from "react-router-dom";
 
 const MultipleHooks = () => {
   const params = useParams();
@@ -18,7 +19,7 @@ const MultipleHooks = () => {
       {hasError && <h1>Hubo un error al cargar los datos del personaje.</h1>}
       {data && (
         <>
-          <div className="card">
+          <div className="card2">
             <img className="image" src={data.image} alt={data.name} />
             <h2 className="subtitle1">{data.name}</h2>
             <hr></hr>
@@ -33,6 +34,13 @@ const MultipleHooks = () => {
           </div>
         </>
       )}
+      <div>
+      <br></br>
+      <Link className="atrasbutton" to="/">
+        ATRÁS
+      </Link>
+      </div>
+     
     </div>
   );
 };
